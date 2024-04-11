@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style> 
+    h1:nth-child(1){
+        color:red;
+        font-size: 60px;
+    }
+    h1:nth-child(3){
+        color:green;
+        font-size: 40px;
+    }
+    #p::before{
+        content:'this is ';
+        color:aqua;
+    }
+    #p::after{
+        content:' of my world';
+        color:aqua
+    }
+    #o::before{
+        content:'super power ';
+        color:blue;
+    }
+    #o::after{
+        content:' do not touch';
+        color:blue;
+    }
+    </style>
+</head>
+<body>
+    <header class="header-area"> 
+        <div class="logo-area"> <a href="#"><img src="images/logo.jpg" alt=""></a></div>
+         <nav class="main-menu"> 
+             <ul> 
+                <li><a href="gallary.html">gallary</a></li>
+                <li><a href="sticky.html">sticky</a></li>
+                <li><a href="hover.html">hover</a></li>
+                <li><a href="first child.html">first child</a></li>
+             </ul>
+         </nav>
+     </header>
+    <h1>the paragraph</h1>
+    <h1 id="p">a paragraph</h1>
+    <h1>the paragraph</h1>
+    <h1 id="o">the paragraph</h1>
+</body>
+</html>
